@@ -1,0 +1,66 @@
+/*
+Colors used
+Primary (blue): #1e16f8;
+Secondary (khaki): #d9c771;
+Accent (faded lime): #f3ffd6;
+Neutral 1 (gray): #8a99b8;
+Neutral 2 (black): #2e3741;
+*/
+
+img {
+  width: 100%;
+}
+
+header {
+  background-color: #ffffff;
+  font-family: 'MuseoModerno', arial;
+  font-size: 22px; /* Sets the font size to 16px */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #2e3741;
+}
+
+nav {
+  background-color: #ffffff;
+  font-family: 'Manrope', arial;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 300; /* Sets the font weight to 300 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #2e3741;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Manrope', arial;
+  font-size: 16px; /* Sets the font size to 16px */
+  font-weight: 200; /* Sets the font weight to 300 */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #2e3741;
+}
+
+h1 {
+  font-family: 'MuseoModerno';
+  font-size: 2.75em;
+  line-height: 1.4;
+  font-weight: 600;
+  color: #1e16f8;
+}
+h2, h3, h4 {
+  font-family: 'Manrope';
+  line-height: 1.4;
+  font-weight: 800;
+  color: #1e16f8;
+}
+
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3 {
+  font-size: 1.55em;
+  text-transform: uppercase;
+  color: #2e3741;
+}
+h4 {
+  font-size: 1.35em;
+}
