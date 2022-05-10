@@ -11,9 +11,6 @@ img {
   width: 100%;
 }
 
-img animated-gif{
-  width: 250px;
-}
 
 header {
   background-color: #ffffff;
@@ -47,6 +44,7 @@ h1 {
   line-height: 1.4;
   font-weight: 600;
   color: #1e16f8;
+  text-align: center;
 }
 h2, h3, h4 {
   font-family: 'Manrope';
@@ -57,14 +55,58 @@ h2, h3, h4 {
 
 
 h2 {
-  font-size: 2.25em;
+  font-size: 2em;
 }
 
 h3 {
-  font-size: 1.55em;
+  font-size: 1.25em;
   text-transform: uppercase;
   color: #2e3741;
 }
 h4 {
-  font-size: 1.35em;
+  font-size: 1.1em;
+}
+
+a {
+  color: #1e16f8;
+  text-decoration: none; /* No underlining */
+}
+a:focus,
+a:hover {
+  color: #8a99b8;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
+
+.button {
+  display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #000000;
+  color: #ffffff; /* needed to override the default link color */
+  font-family: MuseoModerno;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border-bottom: 4px solid #f3ffd6; /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
+.button:hover {
+  background-color: #1e16f8;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.button:active {
+  background-color: #1e16f8;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.button.contact {
+  background-color: transparent;
+  color: #1e16f8;
+  border: 2px solid #1e16f8;
+}
+.button.contact:hover {
+  background-color: transparent;
+  color: #1e16f8;
 }
