@@ -83,6 +83,10 @@ a:hover {
   text-decoration: underline; /* Underlining when hovering over a link */
 }
 
+.logo {
+  width: 150px;
+  height: auto;
+}
 
 /* UTILITIES STYLES */
 
@@ -91,7 +95,7 @@ a:hover {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   background-color: #1e16f8;
   color: #ffffff; /* needed to override the default link color */
-  font-family: MuseoModerno;
+  font-family: 'MuseoModerno';
   font-weight: 600;
   padding: 10px 20px;
   border-radius: 30px;
@@ -122,21 +126,19 @@ a:hover {
     color: #1e16f8;
   }
 
-/*Tertiary contact button*/
+/*Tertiary contact & prototype button*/
 .button.contact {
   background-color: #8a99b8;;
   color: #ffffff;
-  font-family: MuseoModerno;
-  border: none;
+  font-family: 'MuseoModerno';
 }
 .button.contact:hover {
   background-color: #8a99b8;
   color: #ffffff;
-  border: none;
 }
 
 
-/* INDEX ids */
+/* INDEX class stylings */
 #hero {
 
 }
