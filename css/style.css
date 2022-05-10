@@ -11,6 +11,7 @@ img {
   width: 100%;
 }
 
+
 a {
   color: #1e16f8;
   text-decoration: none; /* No underlining */
@@ -124,5 +125,53 @@ h4 {
   background-color: #8a99b8;
   color: #ffffff;
   border: none;
+}
+
+
+/* INDEX ids */
+#hero {
+
+}
+#work {
+
+}
+.footer.block {
+
+}
+
+/* VIAJA ids */
+#hero {
+
+}
+#research {
+
+}
+#ideation{
+
+}
+
+#wireframe{
+
+}
+
+#design{
+
+}
+
+#prototype{
+
+}
+
+#conclusion{
+
+}
+
+/* ABOUT ids */
+
+#myStory{
+
+}
+
+#skillsTools{
 
 }
