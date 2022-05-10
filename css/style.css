@@ -11,13 +11,23 @@ img {
   width: 100%;
 }
 
+a {
+  color: #1e16f8;
+  text-decoration: none; /* No underlining */
+}
+a:focus,
+a:hover {
+  font-family: 'MuseoModerno', arial;
+  text-transform: uppercase;
+  text-decoration: underline; /* Underlining when hovering over a link */
+}
 
 header {
   background-color: #ffffff;
   font-family: 'MuseoModerno', arial;
   font-size: 22px; /* Sets the font size to 16px */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-  color: #2e3741;
+  color: #1e16f8;
 }
 
 nav {
@@ -67,19 +77,10 @@ h4 {
   font-size: 1.1em;
 }
 
-a {
-  color: #1e16f8;
-  text-decoration: none; /* No underlining */
-}
-a:focus,
-a:hover {
-  color: #8a99b8;
-  text-decoration: underline; /* Underlining when hovering over a link */
-}
-
+/*Primary read more button*/
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  background-color: #000000;
+  background-color: #1e16f8;
   color: #ffffff; /* needed to override the default link color */
   font-family: MuseoModerno;
   font-weight: 600;
@@ -101,12 +102,27 @@ a:hover {
   color: #ffffff;
 }
 
+/*Secondary download stuff button*/
+.button.download {
+    background-color: transparent;
+    color: #1e16f8;
+    border: 2px solid #1e16f8;
+  }
+  .button.download:hover {
+    background-color: transparent;
+    color: #1e16f8;
+  }
+
+/*Tertiary contact button*/
 .button.contact {
-  background-color: transparent;
-  color: #1e16f8;
-  border: 2px solid #1e16f8;
+  background-color: #8a99b8;;
+  color: #ffffff;
+  font-family: MuseoModerno;
+  border: none;
 }
 .button.contact:hover {
-  background-color: transparent;
-  color: #1e16f8;
+  background-color: #8a99b8;
+  color: #ffffff;
+  border: none;
+
 }
