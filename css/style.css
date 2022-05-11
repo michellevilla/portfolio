@@ -19,14 +19,6 @@ body {
   color: #2e3741;
 }
 
-header {
-  background-color: #ffffff;
-  font-family: 'MuseoModerno', arial;
-  font-size: 22px; /* Sets the font size to 16px */
-  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-  color: #1e16f8;
-}
-
 h1 {
   font-family: 'MuseoModerno';
   font-size: 2.75em;
@@ -59,8 +51,18 @@ h4 {
 
 /* SITEWIDE STYLES */
 
+header {
+  background-color: #f3ffd6;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 3px solid #000000; /* Creates a line under the header */
+  font-family: 'MuseoModerno', arial;
+  font-size: 22px; /* Sets the font size to 16px */
+  line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+  color: #1e16f8;
+}
+
 nav {
-  background-color: #ffffff;
   font-family: 'Manrope', Arial, Helvetica, sans-serif;
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
@@ -84,7 +86,7 @@ a:hover {
 }
 
 .logo {
-  width: 150px;
+  width: 100px;
   height: auto;
 }
 
@@ -139,49 +141,55 @@ a:hover {
 
 
 /* INDEX class stylings */
-#hero {
+.hero {
 
 }
-#work {
+.work {
 
 }
 .footer.block {
 
 }
 
-/* VIAJA ids */
-#hero {
+/* VIAJA class stylings */
+.hero {
 
 }
-#research {
+.research {
 
 }
-#ideation{
-
-}
-
-#wireframe{
+.ideation{
 
 }
 
-#design{
+.wireframe{
 
 }
 
-#prototype{
+.design{
 
 }
 
-#conclusion{
+.prototype{
 
 }
 
-/* ABOUT ids */
-
-#myStory{
+.conclusion{
 
 }
 
-#skillsTools{
+/* ABOUT class stylings */
+.myStory{
 
+}
+
+.skillsTools{
+
+}
+
+
+/* LAYOUT STYLING */
+
+.container {
+  padding: 0 15px; /* 0 is no top or bottom */
 }
