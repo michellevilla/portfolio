@@ -8,7 +8,7 @@ Neutral 2 (black): #2e3741;
 */
 
 
-/* GENERAL STYLES */
+/*  || GENERAL STYLES ||  */
 
 body {
   background-color: #ffffff;
@@ -49,7 +49,7 @@ h4 {
 }
 
 
-/* SITEWIDE STYLES */
+/*  || SITEWIDE STYLES ||  */
 
 header {
   background-color: #f3ffd6;
@@ -90,7 +90,7 @@ a:hover {
   height: auto;
 }
 
-/* UTILITIES STYLES */
+/*  || UTILITIES STYLES  || */
 
 /*Primary read more button*/
 .button {
@@ -140,56 +140,63 @@ a:hover {
 }
 
 
-/* INDEX class stylings */
-.hero {
-
-}
-.work {
-
-}
-.footer.block {
+/* INDEX IDs */
+#hero {
 
 }
 
-/* VIAJA class stylings */
-.hero {
-
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a;
 }
-.research {
 
-}
-.ideation{
+#footerBlock { /* I think I don't need this */
 
 }
 
-.wireframe{
+/* VIAJA ID */
+#hero {
+
+}
+#research {
+
+}
+#ideation{
 
 }
 
-.design{
+#wireframe{
 
 }
 
-.prototype{
+#design{
 
 }
 
-.conclusion{
+#prototype{
 
 }
 
-/* ABOUT class stylings */
-.myStory{
+#conclusion{
 
 }
 
-.skillsTools{
+/* ABOUT IDs */
+#myStory{
+
+}
+
+#skillsTools{
 
 }
 
 
-/* LAYOUT STYLING */
+/*  || LAYOUT STYLING ||  */
 
 .container {
   padding: 0 15px; /* 0 is no top or bottom */
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
