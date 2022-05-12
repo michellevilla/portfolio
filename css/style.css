@@ -9,6 +9,9 @@ Neutral 2 (black): #2e3741;
 
 
 /*  || GENERAL STYLES ||  */
+* {
+  box-sizing: border-box;
+}
 
 body {
   background-color: #ffffff;
@@ -20,7 +23,7 @@ body {
 }
 
 main {
-  padding-top: 147.79px;
+  padding-top: 127.79px;
 }
 
 h1 {
@@ -56,7 +59,7 @@ h4 {
 /*  || SITEWIDE STYLES ||  */
 
 header {
-  background-color: #f3ffd6;
+  background-color: #ffffff;
   padding: 15px;
   text-transform: uppercase;
   text-align: center;
@@ -64,8 +67,8 @@ header {
   font-family: 'MuseoModerno', arial;
   font-size: 22px; /* Sets the font size to 16px */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-  color: #1e16f8;
   position: fixed;
+  width: 100%;
   -webkit-box-shadow: 0px 17px 10px -13px rgba(46,55,65,0.25);
   -moz-box-shadow: 0px 17px 10px -13px rgba(46,55,65,0.25);
   box-shadow: 0px 17px 10px -13px rgba(46,55,65,0.25);
@@ -79,7 +82,6 @@ nav {
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   display: inline-block;
   width: 100%;
-  color: #2e3741;
 }
 /* I don't know why the nav is not centered within the header container, there's extra space on the left side */
 
@@ -102,6 +104,19 @@ nav ul li a:hover, a:focus {
 
 nav ul li a:active {
   font-family: 'MuseoModerno', serif;
+}
+
+footer {
+  background-color: #2e3741;
+  color: #ffffff;
+}
+
+footer h2 {
+  color: #f3ffd6;
+}
+
+footer a {
+  color: #f3ffd6;
 }
 
 footer ul {
@@ -131,9 +146,12 @@ a:visited {
 }
 
 .logo {
-  width: 50px;
+  width: 35px;
   height: auto;
 }
+
+
+
 
 /*  || UTILITIES STYLES  || */
 
@@ -174,28 +192,33 @@ a:visited {
 
 /*Tertiary contact & prototype button*/
 .button.contact {
-  background-color: #8a99b8;;
-  color: #ffffff;
+  background-color: #ffffff;;
+  color: #1e16f8;
   font-family: 'MuseoModerno';
+  margin-top: 15px;
 }
 .button.contact:hover {
   background-color: #8a99b8;
   color: #ffffff;
 }
 
-
+.columnTwo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
 
 /* INDEX IDs */
 #hero {
-  background-color: #f3ffd6;
   padding: 20px 0;
   display: inline-block;
+  text-align: center;
   width: 100%;
 }
 
 #hero h4 {
   text-transform: uppercase;
-  text-align: center;
 }
 
 #work .row {
@@ -203,8 +226,8 @@ a:visited {
   border-bottom: 1px solid #4a4a4a;
 }
 
-#footerBlock { /* I think I don't need this */
-
+#footerBlock {
+  background-color: #f3ffd6;
 }
 
 /* VIAJA ID */

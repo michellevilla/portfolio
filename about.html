@@ -38,23 +38,24 @@
   </header>
 
   <main>
-    <div>
-      <!-- orange block for About heading-->
+    <div id="hero">
+      <!-- open About section-->
       <h1> About Me </h1>
-    </div><!-- end orange block heading-->
 
     <div>
       <!--Orange block for rest -->
-      <picture>
-        <source srcset="img/about/michellephoto-opt.jpg" media="(max-width:767px)">
-        <img src="img/about/michellephoto.jpg" alt="michellevillapic">
-      </picture>
 
-      <div>
+      <div class="container">
         <!--two columns parent -->
+        <div> <!-- picture column left-->
+          <picture>
+            <source srcset="img/about/michellephoto-opt.jpg" media="(max-width:767px)">
+              <img src="img/about/michellephoto.jpg" alt="michellevillapic">
+          </picture>
+        </div> <!-- end column left-->
 
-        <div class="myStory">
-          <!--column left -->
+        <div>
+          <!-- text column right -->
           <h2>My Story</h2>
           <p>I have a background in what is basically the UX of fashion. For 5 years I did generative research by paying attention to society’s consumptions shifts, to cultural movements, and by interviewing people at events to learn about their
             needs and expectations in fashion; and thus, find out how these things were defining the future of the industry. In fashion this is known as Trend Forecasting. Since I have a capacity to translate research into visuals, I also worked as a
@@ -70,8 +71,11 @@
           </p>
           <a href="files/cv_villa-michelle.pdf" target="_blank" class="button download">check out my cv</a>
         </div>
-        <!--end of column left-->
+        <!--end of column right-->
+      </div> <!-- end two columns -->
+    </div><!-- end About secion-->
 
+      <div class="container"> <!-- container for Skills and Tools 2 columns-->
         <div id="skillsTools">
           <!--column right -->
           <h2>Skills & Tools</h2>
@@ -118,21 +122,22 @@
           </div>
         </div>
         <!--end of right column-->
+      </div> <!-- end of Skills Tools container -->
 
-        <div>
-          <!--end of parent green block-->
-        </div>
-        <!--end of rest orange block-->
+    </div>
+    <!--end of rest orange block-->
   </main>
 
   <footer id="contact" class="container">
+    <!-- open footer -->
     <div>
       <h2>Contact Info</h2>
       <p>
-        Do you like my work and want to discuss opportunities? Let's get in touch!
+        Do you like my work and want to discuss opportunities?
         <br>
-        Call: <a href="tel:+330623502008">+33 0623502008</a> Skype: <a href="skype:.cid.d714b5a2c467b55a">Michelle Villa</a>
+        Let's get in touch!
         <br>
+        Call: <a href="tel:+330623502008">+33 0623502008</a> Skype: <a href="skype:.cid.d714b5a2c467b55a">Michelle Villa. </a>
         Or Send me a Message:
         <a href="mailto:michellevilla.fr@gmail.com" class="button contact">email me</a>
       </p>
@@ -140,8 +145,6 @@
 
     <div>
       <!--Social Media Layout and Placeholders-->
-      <p> Let's Be Friends Online </p>
-      <br>
       <ul>
         <li><a href="https://www.instagram.com/kinddacool.photo/" target="_blank">
             <svg viewBox="0 0 64 64" height="32px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -192,7 +195,7 @@
       </ul>
     </div>
   </footer>
-
+    <!-- end footer-->
 
 
 
