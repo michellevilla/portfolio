@@ -198,10 +198,11 @@ a:visited {
   margin-top: 15px;
 }
 .button.contact:hover {
-  background-color: #8a99b8;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #1e16f8;
 }
 
+/* Have not applied styling below */
 .columnTwo {
     width: 100%;
     display: flex;
@@ -265,6 +266,9 @@ a:visited {
 #skillsTools{
 
 }
+
+
+
 
 
 /*  || LAYOUT STYLING ||  */
