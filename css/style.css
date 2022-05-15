@@ -227,6 +227,15 @@ a:visited {
   text-transform: uppercase;
 }
 
+#hero ul li {
+  text-align: center;
+  list-style-type: none;
+}
+
+#hero span {
+  display: block;
+}
+
 #work .row {
   padding-bottom: 25px;
 }
@@ -311,7 +320,9 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
 
-
+  body {
+    font-size: 18px;
+  }
 
 }
 
