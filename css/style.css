@@ -299,6 +299,14 @@ Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
 
+  .col-md-6 {
+    width: 50%;
+  }
+  
+  body {
+    font-size: 18px;
+  }
+
   header {
   text-align: unset;
   padding: 20px 0 13px;
@@ -320,9 +328,7 @@ Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
 
-  body {
-    font-size: 18px;
-  }
+
 
 }
 
