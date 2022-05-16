@@ -236,6 +236,7 @@ a:visited {
   display: block;
 }
 
+
 #work .row {
   padding-bottom: 25px;
 }
@@ -278,8 +279,12 @@ a:visited {
 }
 
 /* ABOUT IDs */
-#myStory{
+#myStory span {
+  color: #1e16f8;
+}
 
+#myStory h3 {
+  margin-top: 0;
 }
 
 #skillsTools{
@@ -316,7 +321,7 @@ a:visited {
 
 
 /* ==============================
-Medium devices (640px and larger)
+MEDIUM devices (640px and larger)
 ================================= */
 
 @media only screen and (min-width: 640px) {
@@ -346,13 +351,27 @@ Medium devices (640px and larger)
 }
 
 /* ==============================
-Large devices (1024px or larger)
+LARGE devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
 
+  .col-lg-7 {
+    width: 58%;
+  }
 
+  .col-lg-5 {
+    width: 42%;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 }
+
+
 
 /* ==============================
 X-large devices (1440px or larger)
