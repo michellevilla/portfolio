@@ -240,11 +240,20 @@ a:visited {
   padding-bottom: 25px;
 }
 
+#work h3 {
+  margin-top: 0px;
+}
+
 #footerBlock {
   background-color: #f3ffd6;
 }
 
 /* VIAJA ID */
+
+#projectPage h3 {
+  padding-top: 2.5em;
+}
+
 #research {
 
 }
@@ -289,20 +298,33 @@ a:visited {
   margin: 0 auto;
 }
 
+[class*="col-"] {
+  float: left;
+  padding-right: 15px;
+}
+
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
 }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 
 
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
+
 @media only screen and (min-width: 640px) {
 
   .col-md-6 {
     width: 50%;
   }
-  
+
   body {
     font-size: 18px;
   }
