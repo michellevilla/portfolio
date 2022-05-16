@@ -207,14 +207,6 @@ a:visited {
   color: #1e16f8;
 }
 
-/* Have not applied styling below */
-.columnTwo {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: 20px 0;
-}
-
 /* INDEX IDs */
 #hero {
   padding: 20px 0;
@@ -279,6 +271,7 @@ a:visited {
 }
 
 /* ABOUT IDs */
+
 #myStory span {
   color: #1e16f8;
 }
@@ -367,6 +360,10 @@ LARGE devices (1024px or larger)
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  body {
+    font-size: 22px;
   }
 
 }
