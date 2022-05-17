@@ -170,12 +170,14 @@ a:visited {
   padding: 10px 20px;
   border-radius: 30px;
   transition: 0.2s opacity;
+  transition-duration: 0.2s opacity;
 }
 .button:hover {
   background-color: #1e16f8;
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
+  opacity: 0.8;
 }
 
 .button:active {
@@ -189,10 +191,12 @@ a:visited {
     background-color: transparent;
     color: #1e16f8;
     border: 2px solid #1e16f8;
+    transition-duration: 0.2s opacity;
   }
   .button.download:hover {
     background-color: transparent;
     color: #1e16f8;
+    opacity: 0.8;
   }
 
 /*Tertiary contact & prototype button*/
@@ -201,10 +205,13 @@ a:visited {
   color: #1e16f8;
   font-family: 'MuseoModerno';
   margin: 15px;
+  transition-duration: 0.2s opacity;
 }
+
 .button.contact:hover {
   background-color: #ffffff;
   color: #1e16f8;
+  opacity: 0.8;
 }
 
 /* INDEX IDs */
@@ -298,7 +305,7 @@ a:visited {
 
 [class*="col-"] {
   float: left;
-  padding-right: 15px;
+  padding-right: 30px;
 }
 
 .row {
