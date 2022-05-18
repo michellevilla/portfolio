@@ -355,6 +355,7 @@ a:visited {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
+
 /* ==============================
 MEDIUM devices (640px and larger)
 ================================= */
@@ -384,9 +385,6 @@ MEDIUM devices (640px and larger)
     padding-top: 99px;
   }
 }
-
-
-
 
 
 /* ==============================
