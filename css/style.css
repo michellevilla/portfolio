@@ -13,6 +13,10 @@ Neutral 2 (black): #2e3741;
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #ffffff;
   font-family: 'Manrope', Arial, Helvetica, sans-serif;
