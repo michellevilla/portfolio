@@ -27,7 +27,7 @@ body {
 }
 
 main {
-  padding-top: 127.79px;
+  padding-top: 89.69px;
 }
 
 h1 {
@@ -64,7 +64,7 @@ h4 {
 
 header {
   background-color: #ffffff;
-  padding: 15px;
+  padding: 20px 0px 2px;
   text-transform: uppercase;
   border-bottom: 0 solid #000000; /* Creates a line under the header */
   font-family: 'MuseoModerno', arial;
@@ -83,10 +83,7 @@ nav {
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 600; /* Sets the font weight to 300 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-  display: inline-block;
-  width: 100%;
 }
-/* I don't know why the nav is not centered within the header container, there's extra space on the left side */
 
 nav ul li {
   padding: 0;
@@ -113,12 +110,38 @@ nav ul li a:active {
   position: relative;
 }
 
+
+
 .navtoggle li .icon {
   position: absolute;
   right: 0;
   top: 2px;
   font-size: 20px;
+  padding-right: 0;
 }
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 20px 0;
+  text-align: center;
+}
+.navtoggle.responsive li:last-child  {
+    padding: 0 0 10px;
+}
+
 
 footer {
   background-color: #2e3741;
@@ -127,7 +150,6 @@ footer {
   bottom 0;
   width: 100%;
 }
-
 
 footer h2 {
   color: #f3ffd6;
@@ -169,10 +191,6 @@ a:visited {
   height: auto;
 }
 
-
-.navtoggle li:not(:last-child) {
-  display: none;
-}
 
 
 /*  || UTILITIES STYLES  || */
@@ -406,6 +424,10 @@ MEDIUM devices (640px and larger)
 
   nav > ul > li {
   display: inline-block;
+  }
+
+  nav > ul {
+  margin: 1em 0;
   }
 
   .navtoggle li:not(:last-child) {
