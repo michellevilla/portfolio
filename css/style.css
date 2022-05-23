@@ -66,7 +66,6 @@ header {
   background-color: #ffffff;
   padding: 15px;
   text-transform: uppercase;
-  text-align: center;
   border-bottom: 0 solid #000000; /* Creates a line under the header */
   font-family: 'MuseoModerno', arial;
   font-size: 22px; /* Sets the font size to 16px */
