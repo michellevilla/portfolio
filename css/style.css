@@ -68,7 +68,7 @@ header {
   text-transform: uppercase;
   border-bottom: 0 solid #000000; /* Creates a line under the header */
   font-family: 'MuseoModerno', arial;
-  font-size: 22px; /* Sets the font size to 16px */
+  font-size: 16px; /* Sets the font size to 16px */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   position: fixed;
   width: 100%;
@@ -107,6 +107,17 @@ nav ul li a:hover, a:focus {
 
 nav ul li a:active {
   font-family: 'MuseoModerno', serif;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
 }
 
 footer {
@@ -159,6 +170,9 @@ a:visited {
 }
 
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
 
 
 /*  || UTILITIES STYLES  || */
@@ -298,6 +312,10 @@ a:visited {
   margin-top: 0;
 }
 
+#myStory h1 {
+  padding: 20px 0;
+}
+
 #skillsTools{
 
 }
@@ -374,6 +392,7 @@ MEDIUM devices (640px and larger)
   }
 
   header {
+  font-size: 22px;
   text-align: unset;
   padding: 20px 0 13px;
   }
@@ -382,18 +401,32 @@ MEDIUM devices (640px and larger)
     width: auto;
     float: right;
     margin-top: 4px;
+    display: inline-block;
+  }
+
+  nav > ul > li {
+  display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+  display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
   }
 
   main {
     padding-top: 99px;
+    }
   }
-}
 
 
 /* ==============================
 LARGE devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+
 
   .col-lg-7 {
     width: 58%;
