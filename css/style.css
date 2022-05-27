@@ -7,7 +7,6 @@ Neutral 1 (gray): #8a99b8;
 Neutral 2 (black): #2e3741;
 */
 
-
 /*  || GENERAL STYLES ||  */
 * {
   box-sizing: border-box;
@@ -147,7 +146,6 @@ footer {
   background-color: #2e3741;
   color: #ffffff;
   position: absolute;
-  bottom 0;
   width: 100%;
 }
 
