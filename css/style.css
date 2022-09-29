@@ -203,7 +203,7 @@ a:visited {
   padding: 10px 20px;
   border-radius: 30px;
   transition: 0.2s;
-  transition-duration: 0.2s;
+  transition-duration: opacity 0.2s;
 }
 .button:hover {
   background-color: #1e16f8;
@@ -224,7 +224,7 @@ a:visited {
     background-color: transparent;
     color: #1e16f8;
     border: 2px solid #1e16f8;
-    transition-duration: 0.2s;
+    transition-duration: opacity 0.2s;
   }
   .button.download:hover {
     background-color: transparent;
@@ -238,7 +238,7 @@ a:visited {
   color: #1e16f8;
   font-family: 'MuseoModerno';
   margin: 15px;
-  transition-duration: 0.2s;
+  transition-duration: opacity 0.2s;
 }
 
 .button.contact:hover {
@@ -364,33 +364,6 @@ a:visited {
 }
 
 
-/* || ANIMATION || */
-
-@keyframes color-change {
-  from {fill: #edc655;}
-  to {fill: #1e16f8;}
-}
-
-.sun {
-  animation: 4s color-change infinite alternate linear;
-}
-
-@keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
-}
-
-.cloud-front {
-  animation: 30s cloud-move infinite alternate linear;
-}
-
-@keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}to {transform: translate(100px, 48px);}
-}
-
-.cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
-}
 
 
 /* ==============================
